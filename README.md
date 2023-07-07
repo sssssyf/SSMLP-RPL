@@ -2,9 +2,17 @@
 Y. Sun, B. Liu, R. Wang, P. Zhang and M. Dai, "Spectral–Spatial MLP-Like Network With Reciprocal Points Learning for Open-Set Hyperspectral Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-18, 2023, Art no. 5513218, doi: 10.1109/TGRS.2023.3280183.
 
 # Requirements
+os
+argparse
+datetime
+time
+importlib
+scipy
+torch
+sklearn
 
 # Usage
-
+We provide a demo of the Indian Pines hyperspectral data for open-set classification. Please note that due to the randomness of the parameter initialization, the experimental results might have slightly different from those reported in the paper. Please refer to the paper for more details.
 
 
 # License
