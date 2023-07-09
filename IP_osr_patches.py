@@ -11,7 +11,7 @@ import torch.backends.cudnn as cudnn
 
 from models import network
 
-from core import train, train_cs, test
+from core import train, test
 from core.full_test import full_test
 
 from generate_pic import aa_and_each_accuracy, sampling1, sampling2, sampling3, load_dataset, generate_png, generate_iter
